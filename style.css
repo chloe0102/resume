@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: qi;
+    src: url(font/drechifont-monospaced.ttf);
+    src: url(font/drechifont-monospaced.woff);
+}
+
+body {
+
+    background-color: #FAD6A5;
+    margin: 0px;
+
+}
+
+header {
+
+    text-align: center;
+    background-color: #61764B;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 20px;
+    font-family: AR BERKLEY;
+    font-size: 48px;
+    color: white;
+    border: #FAD6A5 10px double;
+
+}
+
+header ul {
+
+    margin: auto;
+    width: 1000px;
+
+}
+
+.d-flex {
+
+    display: flex;
+
+}
+
+header li {
+
+    padding-left: 30px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    font-family: Cooper Std;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+header a {
+
+    position: relative;
+    padding: 20px;
+    transition: 1s;
+    text-decoration: none;
+    color: white;
+
+}
+
+header a:hover {
+
+    color: #9BA17B;
+
+}
+
+.top {
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 90%;
+    height: 700px;
+    display: block;
+    background-color: #9BA17B;
+    border-radius: 50px;
+
+}
+
+.title h1 {
+
+    font-family: Perpetua;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #091540;
+
+}
+
+.img1 {
+
+    padding-top: 100px;
+    padding-left: 200px;
+    float: left;
+    height: 300px;
+
+}
+
+.img1 img {
+
+    width: 600px;
+    height: 450px;
+    border-radius: 50px;
+
+}
+
+.p1 {
+
+    padding-top: 120px;
+    padding-right: 400px;
+    float: right;
+    height: 300px;
+    font-size: 32px;
+    font-family: qi;
+
+}
+
+.p2 {
+
+    padding-top: 530px;
+    text-align: center;
+    font-size: 52px;
+    font-family: Broadcast Matter;
+    color: black;
+
+}
+
+.clear {
+
+    clear: both;
+
+}
+
+footer {
+
+    text-align: center;
+    font-size: 15px;
+    font-family: Adobe Caslon Pro;
+    color: #5C715E;
+
+}
+
+.two {
+
+    width: 90%;
+    height: 900px;
+    background-color: #9BA17B;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+
+}
+
+.p3 {
+
+    padding-top: 5px;
+    text-align: center;
+    font-size: 72px;
+    font-family: qi;
+    padding-bottom: 0px;
+}
+
+.p4 {
+
+    height: 100%;
+    overflow: hidden;
+    column-count: 3;
+    column-width: 310px;
+    padding: 20px;
+    column-gap: 50px;
+    column-rule: gray thin solid;
+
+}
+
+.schoollevel {
+
+    text-indent: 0px;
+    font-size: 48px;
+    font-family: qi;
+    text-align: center;
+    font-weight: lighter;
+    padding: 1px;
+    margin: 0px;
+    line-height: 0px;
+
+}
+
+.name {
+
+    text-indent: 0px;
+    font-size: 48px;
+    font-family: qi;
+    text-align: center;
+    font-weight: lighter;
+    padding: 1px;
+    margin: 0px;
+    line-height: 0px;
+
+}
+
+.intro {
+
+    font-size: 30px;
+    height: 400px;
+    width: 525px;
+    text-align: center;
+    line-height: 32px;
+    font-family: qi;
+}
+
+.three {
+
+    width: 90%;
+    height: auto;
+    background-color: #9BA17B;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+
+}
+
+.p5 {
+
+    height: 100%;
+    overflow: hidden;
+    column-count: 2;
+    column-width: 200px;
+    padding: 20px;
+    column-gap: 50px;
+    column-rule: gray thin solid;
+
+}
+
+.img2 img {
+
+    padding-bottom: 40px;
+    width: 70%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.intro1 {
+
+    font-size: 30px;
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    line-height: 32px;
+    font-family: qi;
+
+}
+
+.p6 {
+
+    padding-left: 500px;
+    padding-top: 50px;
+    font-size: 60px;
+    height: 400px;
+    width: 1200px;
+    text-align: center;
+    line-height: 32px;
+    font-family: qi;
+
+}
+
+.four {
+
+    width: 90%;
+    height: 700px;
+    background-color: #9BA17B;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+
+}
+
+.p7 {
+
+    padding-left: 450px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-size: 60px;
+    height: 400px;
+    width: 1500px;
+    text-align: center;
+    line-height: 32px;
+    font-family: qi;
+    text-decoration: none;
+
+}
